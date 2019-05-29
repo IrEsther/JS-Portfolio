@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>My Portfolio | Esther</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="final_work/style/finalwork.css">
+
+</head>
+
+<body>
+    <section class="head">
+
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- <nav class="mobile-nav">
+            
+                        <a href="#home">Home<i class="material-icons md-36">home</i></a>
+                        <a href="#about">About<i class="material-icons md-36">person</i></a>
+                        <a href="#gallery">Gallery<i class="material-icons md-36">image</i></a>
+                        <a href="#contact">Contact us<i class="material-icons md-36">mail</i></a>
+                    </nav>
+   -->
+
+    </section>
+
+
+
+    <main>
+        <header class="home" id="home">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>I'm Esther Chasin-Komisarov</h1>
+            <h5>Student | App Development</h5>
+            <img src="../finalWorkk/final_work/images/code2.jpg" alt="">
+        </header>
+
+    </main>
+    <section class="about" id="about">
+        <br>
+        <br>
+
+        <h2>About</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img id="profil" src="../finalWorkk/final_work/images/profil.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        <br>
+                        <br>
+                        <p>Esther, 24 y.o.</p>
+                        I'm a student of Mobile App Development in hackerU. In love with coding and I'd like to keep
+                        doing it all my life...
+                        <p>
+                            CV
+                        </p>
+                    </p>
+                    <p>I have experience with Html 5, CSS3, Bootstrap, JavaScript, jQuery</p>
+                    <p><a href="../finalWorkk/final_work/CV - אסתר-אירינה קומיסרוב.pdf"><button type="button"
+                                class="btn btn-outline-info">Download</button></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>My Skills</h3>
+        <p>html 5</p>
+        <section id="skill">
+            <div class="container">
+                <div class="skills html">95%</div>
+            </div>
+            <br>
+            <p>css 3</p>
+            <div class="container">
+                <div class="skills css">85%</div>
+            </div>
+            <br>
+            <p>Bootstrap</p>
+            <div class="container">
+                <div class="skills bootstrap">90%</div>
+            </div>
+            <br>
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">85%</div>
+            </div>
+            <br>
+            <p>jQuery</p>
+            <div class="container">
+                <div class="skills jq">80%</div>
+            </div>
+        </section>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <br>
+
+        <h2>Gallery</h2>
+
+
+
+
+        <br>
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="imgGal" src="../finalWorkk/final_work/images/gallery.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+
+                            <div class="col-md-4">
+                                <img src="../finalWorkk/final_work/images/calculator2.jpg" alt="">
+                                <h3>
+                                    <a href="../finalWorkk/calculator/calculator.html">Calculator</a>
+                                </h3>
+                                <p>
+                                    Simple calculator
+                                </p>
+                                <p>Made with: HTML5, Bootstrap, css3, JavaScript, google fonts.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="final_work/images/ticTac3.jpg" alt="">
+                                <h3>
+                                    <a href="../finalWorkk/x_o/x_o.html">Tic Tac Toe</a>
+                                </h3>
+                                <p>
+                                    Play a game. Made with: HTML5, JS, Bootstrap, css3, jQuery.
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="../finalWorkk/final_work/images/vintage.jpg" alt="">
+                                <h3>
+                                    <a href="../finalWorkk/Oron ex/board (1).html">Oron Exercise</a>
+                                </h3>
+                                <p>
+                                    Knows how to calculate: subtraction, subtraction, multiplication and division
+                                    between numbers (1-10). Made with: HTML5, JS,
+                                    Bootstrap, css3. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+
+
+
+                            <div class="col-md-4">
+                                <img src="../finalWorkk/design tools/images/tool.jpg" alt="">
+                                <h3>
+                                    <a href="../finalWorkk/design tools/tools.html">Design Tools</a>
+                                </h3>
+                                <p>
+                                    Knows to design the object.
+                                </p>
+                                <p>Made with: HTML5, JS, Bootstrap, jQuery, css3.</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="../finalWorkk/final_work/images/accessibility.jpg" alt="">
+                                <h3>
+                                    <a href="../finalWorkk/accessibility/accessibility.html">Accessibility</a>
+                                </h3>
+                                <p>An easy and flexible jquery plugin to give font size accessibility control.</p>
+                                <p>Made with: HTML5, JS, Bootstrap, jQuery, css3.</p>
+
+                            </div>
+                            <div id="login" class="col-md-4">
+                                <img src="../finalWorkk/final_work/images/login.jpg" alt="">
+                                <h3>
+                                    <a href="../finalWorkk/login/login.html">Login</a>
+                                </h3>
+                                <p>
+                                    Simple exercise for login
+                                </p>
+                                <p>Made with: HTML5, Bootstrap, css3, JavaScript, jQuery </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <img src="../finalWorkk/final_work/images/pizza.jpg" alt="">
+                                <h3>
+                                    <a href="../finalWorkk/pizza/pizza.html">Forms</a>
+                                </h3>
+                                <p>
+                                    Simple Form for pizza orders
+                                </p>
+                                <p>Made with: HTML5, Bootstrap, css3.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <br>
+
+    <section class="contact" id="contact">
+        <br>
+
+        <h2>Contact Us</h2>
+        <br>
+        <br>
+        <br>
+     
+
+
+
+
+            <br><br><br><br><br><br><br>
+
+
+
+
+            <div class="container">
+                <section id="main">
+                    <form class="form-group" id="form">
+                        <div class="form-item">
+                            <input type="text" id="firstname" name="firstname" placeholder="Firstname *"
+                                autocomplete="on">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" id="lastname" name="lastname" placeholder="Lastname *"
+                                autocomplete="off">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" id="email" name="email" placeholder="E-mail *" autocomplete="off">
+                        </div>
+                        <div class="form-item">
+                            <input type="number" id="phone" name="phone number" placeholder="Number *"
+                                autocomplete="off">
+                        </div>
+                        <div class="form-item">
+                            <textarea name="message" id="message" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-item">
+                            <button type="button" id="save" name="save">Save</button>
+                        </div>
+                    </form>
+
+                    <div class="data-group">
+                        <div class="data-item">
+                            <span>Firstname</span>
+                            <span>Lastname</span>
+                            <span>E-mail</span>
+                            <span>Number</span>
+                            <span>Message</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+
+        </section>
+ 
+
+
+
+    <footer style="text-align: center">
+        <section class="top-bar">
+            <a href="https://www.facebook.com/">
+                <i class="fab fa-facebook-f">facebook</i>
+            </a>
+            <a href="https://twitter.com/">
+                <i class="fab fa-twitter">twitter</i>
+            </a>
+            <a href="https://github.com/IrEsther">
+                <i class="fab fa-github">github</i>
+            </a>
+            <a href="google.com">
+                <i class="fab fa-google">google</i>
+            </a>
+            <a href="https://www.linkedin.com/">
+                <i class="fab fa-linkedin">linkedin</i>
+            </a>
+
+
+        </section>
+        <div class="card-footer text-muted">
+            © 2019 Esther Komisarov. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+<script src="../finalWorkk/final_work/script/finalWork.js"> </script>
+
+</html>
