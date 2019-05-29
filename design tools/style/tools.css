@@ -1,0 +1,46 @@
+body{  background-image: url(../images/tool.jpg);
+    background-size: 100%;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%; 
+     font-family: fantasy;
+     letter-spacing: 2px;
+     }
+
+
+h1{
+text-align: center;   
+}
+.myBox{
+height: 70px;
+width: 70px;
+border: 1px solid black; 
+text-align: center;
+z-index: 1;
+border-radius: 50px;
+
+
+}
+#inText{
+text-align: rtl;
+z-index: 2;
+}
+.container{
+text-align: center;
+background-color: antiquewhite;
+}
+img{
+width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+.column {
+width: 50%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+}
+}

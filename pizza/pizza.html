@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Pizza| Pizza</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+	 crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+	<link rel="stylesheet" href="style/pizza.css">
+
+</head>
+
+<body>
+	<section class="head">
+		<nav id="nav">
+			<img src="../pizza/images/logo.png" style="height: 40p;width: 40px;" alt="">
+			<a href="#home"><i class="material-icons md-36">home</i>
+				Home
+			</a>
+			<a href="#customer"><i class="material-icons md-36">person</i>
+				customer information
+			</a>
+			<a href="#menu"><i class="material-icons md-36">image</i>
+				Menu
+			</a>
+			<a href="#contact"><i class="material-icons md-36">mail</i>
+				order
+			</a>
+		</nav>
+	</section>
+	<br><br><br>
+	<div class="container">
+		<main>
+
+			<header class="home" id="home">
+				<br><br>
+				<h1>Pizza|Order|Form</h1>
+				<h5>Just make your choose</h5>
+				<img src="../pizza/images/pizza3.jpg" alt="">
+			</header>
+		</main>
+
+	</div>
+
+	<div class="container">
+
+		<section id="customer">
+			<form>
+				<br><br><br>
+				<h2>Customer information </h2>
+				<label>Full Name: </label><br />
+				<input type="text" name="fullName" /><br /><br />
+				<label>Phone Number: </label><br />
+				<input type="number" name="phoneNumber" /><br /><br />
+				<label>Address </label><br />
+				<input type="text" name="address" /><br /><br />
+				<button type="button" class="btn btn-outline-info" id="btn">Submit</button><br><br>
+			</form>
+		</section>
+	</div>
+
+	<br><b><br>
+		<br><br><br><br> <br><br>
+		<section id="menu"><br><br>
+			<h2>Menu</h2>
+			<br>
+			<h3>It's time to make your own pizza... </h3>
+			<p>Choose all the ingredients for the perfect taste! </p><br>
+			<img src="../pizza/images/menu2.jpg" alt="menu">
+			<br><br><br>
+			<div id="pizzaSel" class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>Select the size</h4>
+						<div class="form-group">
+
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>Personal</option>
+								<option>Medium</option>
+								<option>Large</option>
+								<option>Extra-Large</option>
+
+							</select>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<h4>Select cheese</h4>
+						<div class="form-group">
+
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>No cheese</option>
+								<option>Regular</option>
+								<option>Extra</option>
+
+
+							</select>
+						</div>
+					</div>
+					<div class="col-md-4">
+
+						<h4>Select crust</h4>
+						<div class="form-group">
+
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>Plain Crust</option>
+								<option>Garlic Butter Crust</option>
+								<option>Cheese-Stuffed Crust</option>
+								<option>Spicy Crust</option>
+								<option>House Special Crust</option>
+
+							</select>
+						</div>
+					</div>
+
+				</div><br><br><br>
+				<div class="row">
+					<div class="col-md-4">
+						<h4>Select Sauce</h4>
+						<div class="form-group">
+
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>Marinara Sauce</option>
+								<option>White Sauce</option>
+								<option>Barbecue Sauce</option>
+								<option>No Sauce</option>
+
+							</select>
+						</div>
+					</div>
+					<div class="col-md-4"></div>
+
+					<div class="col-md-4" >
+							<h3>Select the toppings:</h3>
+						<img style="height: 30px; width: 30px" src="../pizza/images/tomato.png" alt="">
+						<div class="form-check form-check-inline" >
+							<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+							<label class="form-check-label" for="inlineCheckbox1">tomato</label>
+						</div>
+						<br>
+						<img style="height: 60px; width: 60px" src="../pizza/images/mash.png" alt="">
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+							<label class="form-check-label" for="inlineCheckbox1">mashroom</label>
+						</div>
+						<br>
+						<img style="height: 30px; width: 30px" src="../pizza/images/corn.png" alt="">
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+							<label class="form-check-label" for="inlineCheckbox1">corn</label>
+						</div>
+						<br>
+						<img style="height: 30px; width: 30px" src="../pizza/images/onion.png" alt="">
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+							<label class="form-check-label" for="inlineCheckbox1">onion</label> </div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+		</section>
+<br><br><br>
+
+		<button >Submit order</button>
+		<br><br>
+		
+
+					<br /><br /><br />
+					<a href="../index.html">	<button  type="button" class="btn btn-outline-info" id="back" >back
+    
+					</button> </a>
+				<script src="script/calculator.js"></script> <br /><br /><br />
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+div{
+    text-align: center;
+}
+
+.container{
+  border: 1px solid blue;
+  text-align: center;
+  text-size-adjust: 30px;
+  font-size: 15px;
+  background-color: aquamarine;
+   
+}

@@ -1,0 +1,22 @@
+body{
+    background: url(../images/login2.jpg);
+    width: 100%;
+         background-repeat: no-repeat;
+       
+         font-family: fantasy;
+         letter-spacing: 2px;
+        
+        }
+        
+h1{
+text-align: center;
+
+}
+.container{
+background-color: none;
+text-align: center;
+border-radius: 12px;
+}
+img{
+text-align: center;
+}

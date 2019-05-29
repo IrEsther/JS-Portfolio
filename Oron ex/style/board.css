@@ -1,0 +1,55 @@
+body{
+    font-size: 20px;
+    background-image: url(../images/board1.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+color: white;
+font-family: "Oxygen", Courier;
+}
+h1{
+text-align: center; 
+}
+.container{
+
+text-align: center;
+
+}
+input{
+width: 70px;
+height: 70px;
+text-align: center;
+}
+hr{
+
+color: yellowgreen;
+}
+#message{
+widows: 100px;
+height: 100px;
+}
+#num-1{
+height: 70px;
+width: 70px;
+
+font-size: 25px;
+}
+#num-2{
+height: 70px;
+width: 70px;
+
+font-size: 25px;
+
+}
+.symbols{
+
+border: 2px solid black;
+border-radius: 20px;
+display: inline-block;
+height: 40px;
+width: 40px;
+
+}
+.symbols:hover{
+background-color: white;
+color: black;
+}

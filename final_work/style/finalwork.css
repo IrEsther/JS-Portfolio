@@ -1,0 +1,530 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #000;
+    color: whitesmoke;
+    font-family: "Oxygen", Courier;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.home img {
+    width: 100%;
+    margin-bottom: 15%;
+    margin-left: -100px;
+    -webkit-filter: grayscale(10%) contrast(100%);
+    filter: grayscale(10%) contrast(200%) brightness(60%);
+}
+
+.gallery img {
+    filter: grayscale(100%);
+    width: 300px;
+    height: 250px;
+
+}
+
+.head {
+    margin: 0;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    overflow: hidden;
+
+    background-color: transparent;
+    color: bisque;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background:transparent;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;
+    
+}
+
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+    z-index: 15;
+}
+
+
+.menu ul{
+    text-align: center;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+    nav.black ul {
+        background: #000;
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+/* .navbar{
+margin: 0;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    overflow: hidden;
+    
+    background-color: transparent;
+    color: bisque;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    z-index: 1;
+    text-align: center;
+} */
+
+.material-icons.md-36 {
+    font-size: 36px;
+
+}
+
+.head a {
+    display: inline;
+    padding: 25px 15px;
+    color: whitesmoke;
+    transition: all 0.35s;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+}
+
+.head p {
+    margin: 0;
+    padding: 0;
+    font-family: Courier;
+}
+
+.head a:hover {
+    background: black;
+
+}
+
+/* .head nav a:nth-child(1) {
+    background: black;
+}
+
+.head nav a:nth-child(1):hover {
+    background: black;
+    color: whitesmoke;
+} */
+
+main {
+    max-width: 980px;
+    background: black;
+    margin-left: 28%;
+    padding: 12px 50px 12px 50px;
+}
+
+header {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 4px;
+}
+
+header h5 {
+    font-weight: 200;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: whitesmoke;
+    margin-right: 120px
+}
+
+.about,
+.gallery,
+.contact {
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.home h1 {
+    margin-right: 160px;
+}
+
+.about h2,
+.gallery h2,
+.contact h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: overline;
+    padding-bottom: 10px;
+    margin: 250px 0 0 0;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#imgGal {
+    height: 100%;
+    width: 70%;
+
+}
+
+
+.contact{
+    margin-bottom: 100px;
+}
+
+
+.about p {
+    color: whitesmoke;
+}
+
+.about span {
+    font-weight: 600;
+    color: white;
+}
+
+.about h3 {
+    font-weight: 100;
+    margin: 50px 0;
+    margin-top: 500px;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 30px;
+    border-radius: 12px;
+    background-color: none;
+    border: 2px solid white;
+    color: white;
+   
+
+}
+
+.html {
+    width: 95%;
+}
+
+.css {
+    width: 85%;
+}
+
+.js {
+    width: 85%
+}
+
+.jq {
+    width: 80%;
+}
+
+.gallery a {
+    color: aliceblue;
+}
+
+.gallery p {
+    color: bisque;
+}
+
+.bootstrap {
+    width: 90%;
+}
+
+.container {
+    width: 70%;
+    height: 70%;
+}
+
+
+
+#profil {
+    height: 250px;
+    width: 250px;
+    -webkit-filter: grayscale(10%) contrast(100%);
+    filter: grayscale(10%) contrast(170%) brightness(80%);
+    border-radius: 120px;
+}
+#form {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  #form {
+    width: 100%;
+    height: 200px;
+    background: url() center;
+    background-size:cover;
+    font-family: calibri;
+  }
+  
+  section #form {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 0 auto;
+  }
+  
+  section .form-group{
+    width: 100%;
+    text-align: center;
+  }
+  
+  section .data-group {
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  section .form-group .form-item{
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+  }
+  
+  section .form-group .form-item input[type="text"] {
+    width: 20%;
+    padding: 10px 10px;
+    background: grey;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px grey;
+    color: #fff;
+  }
+  
+  section .form-group .form-item:nth-of-type(6) {
+    width: 20%;
+    margin: 20px auto;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  section .form-group .form-item:nth-of-type(6)::before {
+    display: block;
+    content: "*";
+    color: white;
+    position: absolute;
+    top: 2px;
+    right: 0;
+  }
+  
+  section .form-group .form-item input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin: 0 10px;
+  }
+  
+  section .form-group .form-item input[type="text"]:focus {
+    border: none;
+    outline: none;
+    background: #555;
+    box-shadow: 1px 1px 20px grey;
+  }
+  
+  section .form-group .form-item input[placeholder]:hover {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  section .form-group .form-item input::placeholder {
+    line-height: 2.1rem;
+    
+    font-size: 1rem;
+    color: white;
+  }
+  
+  section .form-group .form-item button {
+    padding: 5px 20px;
+    border: 4px solid #f11;
+    background: #f11;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  section .data-group .data-item,section .data-group .data-item-1 {
+    padding-top: 40px;
+    display: flex;
+    width: inherit;
+    margin: 0 auto;
+  }
+  
+  section .data-group .data-item {
+    color: #fff;
+  }
+  
+  section .data-group .data-item span{
+    width: 80%;
+    height: min-content;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2.1rem;
+    border-bottom: 2px solid #f11;
+    border-radius: 5px;
+  }
+  
+  section .data-group .data-item-1 {
+    padding-top: 20px;
+    background: #fff;
+  }
+  
+  section .data-group .data-item-1:nth-of-type(even) {
+    background: lightgrey;
+  }
+  
+  section .data-group .data-item-1 span{
+    width: 80%;
+    height: min-content;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2.1rem;
+  }
+  
+  p#errPara {
+    border-bottom: 1px solid red;
+    width: max-content;
+    margin: 0px auto;
+    margin-top: 10px;
+    position: relative;
+    transition: all 5s;
+  }
+
+@media screen and (max-widgh: 99%) {
+    body {
+        width: 100%;
+    }
+    .head {
+        width: 50%;
+    }
+    .gallery {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
